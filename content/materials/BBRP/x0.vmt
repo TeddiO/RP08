@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+    "$basetexture" "BBRP/x0"
+	"$translucent" 1
+	"alpha" 0.5
+}

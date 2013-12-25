@@ -1,0 +1,67 @@
+Update 25/12/2013
+
+* Pushed to Github to allow for forking
+* Some(?) GM13 Compatability
+* No idea RE other changes made.
+
+
+Update 5/1/2011
+
+* Removed the remains of any advanced code (init.lua, shared.lua)
+* Removed some unused tables / locals that were never used / depricated
+* Removed custom resource system - changed to stock Gmod resource.AddFile() (resource.lua)
+* Removed Zombie module (long time broken) (zombies.lua)
+* Removed custom spawns (broken - may repair and readd in future, spawns.lua)
+* Derma skin removed for now - may readd it when I can be arsed (lovemelongtime.lua)
+* Removed some useless / unused util.lua functions
+* Performed a final QC to ensure most of the gamemode is working
+
+
+
+
+
+Update (no idea when this was done)
+
+* Moved bannedprops.lua to modules and added an explanation as to what it did. (bannedprops.lua)
+* Removed defunct code (commented out) from gravgun.lua (gravgun.lua)
+* Removed the function GM:PlayerShouldTakeDamage (Default: On in sandbox anyways) (defaultvars.lua)
+* Removed function AddHelpLabel, useless, didn't work in Gmod anymore (init.lua)
+* Removed help labels(admincc.lua)
+* Removed the directory "playerdata", defunct(gamemodedata.lua)
+* Deleted items.lua (server folder, item is shared therefore useless to have 2x of same file) (items.lua)
+* Removed a pointless message from when a non-admin tries to spawn a vehicle / seat (vehicle.lua)
+* Removed steamid.lua 
+
+
+
+
+Update 17/7/2010
+
+----Please note, RP08 has ceased to use the GDatabase mysql module and now uses mysqloo available at http://www.facepunch.com/showthread.php?t=933647. SQL data will cease to work otherwise until you get this module.---
+
+* Swapped to the mysqloo module. Offers higher stability and performance compared to GDatabase.
+* Swapped to mysqloo's string escaping
+* Added warnings to script so users to remember to escape any strings that the client controls (eg name boxes etc)
+* Added extra error handling for all queries.
+* Fixed the CanTool Error
+
+
+Update 20/5/2010
+
+
+*Ironsights have been fixed
+*Arresting is now a module
+*Money is now a module
+*Knockout is now a module
+*Gassing has been moved to the knockout module
+*Certian variables have been moved to a file called defaultvars.lua. This file is intended for any functions / methods that will rarely / never be changed, and will rarely be accessed in game.
+*Removed Gunlab / Ammolab vars (depricated, player.lua)
+*Redone most of the arrest code. See below for more information
+*New function added: pl:IsArrested() (Boolean, mod_arrest)
+*Removed the arrest table, the functions based around it were depricated as of a recent Gmod update. (player.lua)
+*Added new vars for schema and table loading. More customizable. (playerloading.lua)
+*Swapped to Gmods native string escaption. (playerloading.lua)
+*Fixed holdtypes for Gmod update 78
+*Removed some pointless vars and optimized the HUD slightly.
+*Knockout has been fixed and is working correctly.
+*Fixed issue regarding CP chat etc not working.

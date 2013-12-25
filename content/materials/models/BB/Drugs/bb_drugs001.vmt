@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/BB/Drugs/bb_drugs001"
+	"$bumpmap" "models/BB/Drugs/bb_drugs001_norm"
+	"$normalmap" "models/BB/Drugs/bb_drugs001_norm"
+	"$surfaceprop" "Grass"
+}
