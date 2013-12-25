@@ -1,0 +1,5 @@
+"rp08"
+{
+	"base"	"sandbox"
+	"title" "RP08 - Release Edition"
+}
