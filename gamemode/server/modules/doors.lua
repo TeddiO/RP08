@@ -6,7 +6,6 @@
  
 Module.Name 	= "Doors"
 Module.Author 	= "Ben Swanson"
-Module.Email 	= "benswanson1@googlemail.com"
 Module.Website 	= "www.bbroleplay.co.uk"
 ---------------------------------------------------------*/
 

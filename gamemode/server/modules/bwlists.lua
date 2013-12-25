@@ -5,7 +5,6 @@ Black and White Lists
  
 Module.Name 	= "Blacklists"
 Module.Author 	= "Ben Swanson - Modified by Teddi"
-Module.Email 	= "benswanson1@googlemail.com"
 Module.Website 	= "www.bbroleplay.co.uk"
 ---------------------------------------------------------*/
 --[class .. steamid] - true/false
